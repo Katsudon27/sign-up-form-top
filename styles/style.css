@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Norse';
-    src: url('Norse.woff2') format('woff2'),
-        url('Norse.woff') format('woff');
+    src: url('../fonts/Norse.woff2') format('woff2'),
+        url('../fonts/Norse.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Norse';
-    src: url('Norse-Bold.woff2') format('woff2'),
-        url('Norse-Bold.woff') format('woff');
+    font-family: 'Norse-Bold';
+    src: url('../fonts/Norse-Bold.woff2') format('woff2'),
+        url('../fonts/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -58,11 +58,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sidebar{
+    position: relative;
     width: 40%;
     height: 100vh;
     background-image: url("../images/background.jpg");
     background-position: center; 
     background-size: cover;
+}
+
+#logo-area {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo-text {
+    color: white;
+    font-family: "Norse-Bold", serif;
+    font-size: 5rem;
+}
+
+#logo {
+    max-height:100%; 
+    max-width:100%;
 }
 
 #main-content{
