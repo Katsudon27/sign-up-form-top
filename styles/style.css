@@ -111,7 +111,20 @@ section {
   padding: 50px;
 }
 
-#form-controls {
-    background-color: #edf2f7;
-    height: 30vh;
+#form-control-section {
+  background-color: #edf2f7;
+  height: 30vh;
+  color: black;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.form-control-row {
+  display: flex;
+  gap: 80px;
+  margin-top: 10px;
+}
+
+p > label {
+  display: block;
 }
