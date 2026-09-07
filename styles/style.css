@@ -146,3 +146,31 @@ input:focus {
 input[type="password"]:user-invalid {
   border-color: red;
 }
+
+#form-submission {
+  padding-left: 50px;
+}
+
+button[type="submit"] {
+  margin: 30px;
+  margin-left: 0;
+  color: white;
+  background-color: #627922;
+  border-radius: 0.5rem;
+  padding: 10px 40px;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+button[type="submit"]:hover {
+  background-color: #cfe3ea;
+  color: #4a4d2d;
+}
+
+
+#form-submission a:link,
+#form-submission a:visited {
+  color: #c0a743;
+  text-decoration: none;
+}
