@@ -111,9 +111,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  background-color: #305759;
+  background-color: #cfe3ea;
   height: 35vh;
-  color: white;
+  color: #627922;
 }
 
 #cta-section {
@@ -179,12 +179,11 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #cfe3ea;
-  color: #4a4d2d;
+  background-color: #305759;
 }
 
 #form-submission a:link,
 #form-submission a:visited {
-  color: #c0a743;
+  color: #305759;
   text-decoration: none;
 }
