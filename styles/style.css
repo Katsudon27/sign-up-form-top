@@ -59,12 +59,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sidebar{
-    position: relative;
-    width: 40%;
-    height: 100vh;
-    background-image: url("../images/background.jpg");
-    background-position: center; 
-    background-size: cover;
+  position: relative;
+  width: 40%;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-position: center; 
+  background-size: cover;
+}
+
+#sidebar > p {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+#sidebar a:link,
+#sidebar a:visited {
+  color: white;
 }
 
 #logo-area {
@@ -167,7 +182,6 @@ button[type="submit"]:hover {
   background-color: #cfe3ea;
   color: #4a4d2d;
 }
-
 
 #form-submission a:link,
 #form-submission a:visited {
