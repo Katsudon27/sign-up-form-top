@@ -152,11 +152,21 @@ input {
 input:focus {
   outline: none;
   border-color: blue;
-  box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 input:user-invalid {
   border-color: red;
+}
+
+input:user-invalid + span::after{
+  content: "✘";
+  color: red;
+}
+
+input:user-valid + span::after{
+  content: "✔";
+  color: green;
 }
 
 /*Styling for form submission section  */
